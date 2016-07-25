@@ -16,7 +16,7 @@ if __name__ == '__main__':
         try:
             # Log in with a Google or Pokemon Trainer Club account
         #     print client.login_with_google('GOOGLE_EMAIL', 'PASSWORD')
-            print client.login_with_pokemon_trainer('USERNAME', 'PASSWORD')
+            print client.login_with_pokemon_trainer('trenggalek', 'klik123kali')
             
             # Get specific Pokemon Go API endpoint
             print client.get_specific_api_endpoint()
